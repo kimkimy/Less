@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foire aux questions</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+<button class="accordion"> Quel est la meilleure saison pour voyager?</button>
+<div class="panel">
+    <p>Mieux vaux partir au printemps ou en automne.</p>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) 
+        {
+         acc[i].addEventListener("click", function() 
+              {
+         this.classList.toggle("active");
+         var panel = this.nextElementSibling;
+         if (panel.style.display === "block") {
+                                               panel.style.display = "none";
+                                              } 
+         else {
+               panel.style.display = "block";
+              }
+        });
+             }
+</script> 
+</body>
+</html>
+
+
+

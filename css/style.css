@@ -1,0 +1,167 @@
+p{
+color: rgb(19, 18, 18);
+}
+body{
+background-image:url("/images/cuisineMINIMALISTE_moderne.PNG"); 
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+
+}
+
+* {
+    box-sizing: border-box;
+   }
+ /* -- body -- */
+ body{
+     background-color: lightgray;
+     width: 70%;
+     margin: auto;
+     }
+ /* -- fin du body -- */
+ 
+ /* -- header -- */
+ header{
+        margin-bottom: 20px;
+       }
+ header h1{
+          font-size: 40px;
+          }
+ header nav{
+           background-color: orange;
+           border-radius: 25px;
+           height: 35px;
+           }
+ header nav ul li{
+                 list-style-type: none;            
+                 display: inline;
+                 line-height: 35px;
+                 margin-left: 15px;
+                 font-weight: bold;
+                 }
+ header nav ul li a{
+                   text-decoration: none;
+                   color: white;
+                   }
+ header nav ul li a:hover{
+                         color: black;
+                         }
+ /* -- fin du header -- */
+ 
+ /* -- section -- */
+ section{
+        width: 70%;
+        float: left;
+        }
+ section article{
+                background-color: white;
+                border: 2px solid orange;
+                border-radius: 25px;
+                margin-bottom: 10px;
+                margin-right:1em;
+                }      
+ section article h3{
+                   background-color: orange;
+                   padding-left: 10px;
+                   }    
+ section article p{
+                   padding: 0px 10px;
+                   text-align: justify;
+                   }    
+ /* -- fin de section -- */
+ 
+ /* -- aside -- */
+ aside{
+       background-color: white;
+       border: 2px solid orange;
+       border-bottom-right-radius: 20px;
+       width: 30%;
+       margin-left: 70%;
+      }
+ aside h4{
+         background-color: orange;
+         text-align: center;
+         margin-top: 0px;
+        }
+ aside p{
+         padding: 0px 5px;
+         text-align: justify;
+        }
+ aside ul li{
+            list-style-type: none;
+            margin-bottom: 2px;
+            margin-left: -40px;
+            text-align: center;
+            background-color: darkblue;
+            }
+ aside ul li a{
+              text-decoration: none;
+              color: white;
+              font-weight: bold;
+              }
+ aside ul li + li{
+                 background-color: lightblue;
+                 }
+ aside ul li a:hover{
+                    color: black;
+                    }
+ /* -- fin aside -- */
+ 
+ /* -- footer -- */
+ footer {
+         clear: both;
+        }
+ footer p{
+          margin: 0px;
+          width: 100%;
+          background-color: orange;
+          font-weight: bold;
+          text-align: center;
+         }
+ #cadre1 {
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
+         }
+ #cadre2 {
+          border-bottom-left-radius: 25px;
+          border-bottom-right-radius: 25px;
+         }
+ /* -- fin footer -- */
+
+ 
+ body{
+    margin: auto;
+    width: 70%;
+     }
+.accordion {
+            font-family:  'Courier New', Courier, monospace;
+            background-color: rgb(red, green, blue);
+            color: black;
+            cursor: pointer;
+            padding: 10px;
+            text-align: left;
+            border: none;
+            transition: 0.10s;
+            font-size: 1.2em;
+            border: 20px solid black;
+           }
+.accordion:hover {
+                  background-color:#ccc;
+                 }
+.panel{
+       padding: 0 10px;
+       display:none;
+       overflow: hidden;
+      }
+.panel p {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.3em;
+          text-align: left;
+         }
+
+
+
+         
+#div1 {
+  font-size:48px;
+}
